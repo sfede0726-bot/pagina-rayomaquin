@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rayo</title>
+
+    <!-- copie el codigo de un tipo de letra de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bitcount+Grid+Double:wght@100..900&family=
+Bungee+Tint&family=Rubik+Puddles&display=swap" rel="stylesheet">
+
+    <!-- vincule el css con el html-->
+
+    <link rel="stylesheet" href="muytranqui.css">
+
+</head>
+
+
+<body>
+    <header>
+        <!--armo un encabezado-->
+
+        <div>
+            <!-- agregue la foto de mi personaje-->
+
+            <img src="./Rayo_McQueen.webp" alt="rayo" width="200px" height="200" class="bordeimagen">
+        </div>
+
+        <h1> <u>El rayo mcqueen</u></h1>
+        <h2> corredor de carreras</h2>
+    </header>
+    <main>
+        <!--armo un main que es donde va todo en contenido de los formularios y demas-->
+
+        <section>
+            <!-- armo un section para poner un p y asi ingresar una pequeña descripcion-->
+
+            <p>Rayo McQueen es un auto de carreras que, inicialmente, es arrogante, egoísta y perfeccionista, pero se
+                convierte en una persona más comprensiva y humilde tras su estancia en Radiador Springs. Físicamente,
+                es de color rojo con un rayo amarillo y el número 95, y es un auto de NASCAR. Como piloto, es
+                increíblemente talentoso y hábil, capaz de realizar diversas acrobacias para ganar carreras.
+            </p>
+        </section>
+
+        <section>
+            <!-- armo un section para poner una ul y asi ingresar una lista desordenada de sus caracteristicas-->
+
+            <ul>
+                <li>
+                    Es un auto de carreras stock de color rojo, con calcomanías, llantas rojas y el número 95 como
+                    distintivo. </li>
+                <li>
+
+                    Cuenta con un motor V8 de gran potencia. </li>
+                <li>
+
+                    Es un auto diseñado para la velocidad, con una velocidad máxima que supera los 320 km/h. </li>
+                <li>
+
+                    Es un competidor extraordinario con talento para las acrobacias y la victoria en carreras
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <!-- armo otro section para poner un p y asi ingresar diferentes datos-->
+<!--sus logros, titulo: etiqueta h1, subtitulo: h2, parrafo de descripcion: P -->
+            <h1>logros del rayo </h1>
+            <h2> Siete veces Campeón de la Copa Pistón:
+            </h2>
+            <p>Este es su logro más significativo y estable.
+                Mejor Atleta de su Generación: Este reconocimiento lo eleva por encima de otros competidores de su
+                época.
+                Ganador del Gran Premio Mundial: Su éxito en esta prestigiosa competición internacional lo confirma como
+                el mejor coche de carreras en general. </p>
+
+            <h2>Contexto de su Carrera: </h2>
+
+            <p> Su éxito en la Copa Pistón se extendió a lo largo de varios años, marcando su dominio en el
+                automovilismo.
+                Su trayectoria incluye la transición de corredor novato a leyenda del deporte.
+            </p>
+        </section>
+
+
+        <section>
+            <!-- abri una etiqueta "form" para formularios-->
+            <form action="" method="post">
+                <!-- separe todos los forularios en diferentes div  para que en la pagina aparezcan todos apilados uo arriba del otro y todos dentro de un fieldset-->
+
+                <fieldset>
+
+                    <legend>para propuestas: ingrese Datos personales para contactarse con el manager del rayo</legend>
+                    <!-- pongo un leyend para el titulo del fieldset-->
+                    <div>
+                        <label for="nombre">Nombre</label>
+                    </div>
+
+                    <div>
+                        <input type="text" name="nombre" id="nombre">
+                        <!-- armo un input para ingresar el nombre -->
+
+                    </div>
+
+                    <div>
+                        <label for="apellido">Apellido</label>
+
+                    </div>
+
+                    <div>
+                        <input type="text" name="apellido" id="apellido">
+                        <!-- armo un input para ingresar el apellido-->
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="email@gmail.com">
+                        <!-- armo un input para ingresar  el mail-->
+                    </div>
+                    <div>
+                        <label for="telefono">telefono</label>
+
+                    </div>
+                    <div>
+                        <input type="telefono" name="telefono" id="telefono">
+                        <!-- armo un input para ingresar el numero de celular -->
+                    </div>
+                    <div>
+                        <label for="comentario">ingrese cual es su propuesta con el rayo</label>
+                        <!-- pongo un "label-for" para que se ingrese lo que se desee -->
+                    </div>
+
+                    <div>
+                        <textarea name="ingresedatos" id="ingresedatos"></textarea>
+                        <!--con el textarea junto al label-for se pueden ingresar comentarios  -->
+                    </div>
+                    <div>
+                        <p>acepto los terminos y condiciones</p>
+                        <input type="checkbox" id="terminos" name="terminos">
+                        <!--con un input de tipo checkbox hago que se requiera ceptar para seguir con el formulario -->
+                    </div>
+                    <div id="raya">
+                        <button id="btn-contacto" class="btn"> contactar
+                        </button>
+                        <button type="submit" id="btn-portafolio" id="btn-portafolio" class="btn"> portafolio </button>
+                        <!-- agregue con un button de tipo submit los botones: contactar y portafolio-->
+
+                    </div>
+                </fieldset>
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+
+</body>
+
+</html>
+<!--
+Crear una página web semántica sobre un personaje famoso (real o ficticio) aplicando los conceptos de CSS aprendidos: propiedades de texto, bordes, 
+interlineado, y uso adecuado de clases e IDs.
+La página debe tener: encabezado y principal con dos secciones
+Desarrollarlo dentro de la carpeta tp-basico. Agregar la imagen a la estructura de la carpeta.
+
+- Utilizar paletas de colores a elección
+- Familia de fuente a elección y aplicarlo utilizando google fonts (una fuente para todo el proyecto)
+- Utilizar font-size para definir tamaño de letras
+- Armar un formulario en la segunda sección. Solicitar Nombre - Apellido, email, selector de opciones a elección, textarea para comentarios.
+
+Justificar el uso de clases y el uso de IDs
+-->

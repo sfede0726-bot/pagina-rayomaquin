@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conceptos de css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bitcount+Grid+Double:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <STYLE>
+        /* ELEGIR color de fondo  */
+        body {
+            background-color: black;
+        }
+
+        /* color letra h1  */
+        h1 {
+
+            color: rgb(94, 255, 0);
+            font-family: "Bitcount Grid Double Ink", system-ui;
+
+        }
+
+        /* color header   */
+        header {
+            background-color: rgb(16, 44, 0);
+        }
+
+        p {
+            color: aliceblue;
+        }
+
+        h2 {
+            color: rgb(94, 255, 0);
+        }
+
+        .fuente-principal {
+            font-family: 'Courier New', Courier, monospace
+        }
+
+
+        .fuente-secundaria {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .tam-px {
+            font-size: 1.8m;
+        }
+
+        .fuente-grosor-normal {
+            font-weight: 400;
+        }
+
+        .fuente-grosor-max {
+            font-weight: 900;
+        }
+
+        .fuente-grosor-debil {
+            font-weight: 100;
+        }
+
+        .fuente-prueba-grosor {
+            font-size: 2.1em;
+        }
+
+        .fuente-estilo {
+            font-style: italic;
+        }
+
+
+        .interlineado-peque {
+            line-height: 1;
+        }
+
+        .interlineado-normal {
+            line-height: 1.9;
+        }
+
+        .interlineado-grande {
+            line-height: 4.2;
+        }
+        #section05{
+            background-color: rgba(82, 81, 81, 0.815);
+        }
+        #section1{
+            background-color: rgba(82, 81, 81, 0.815);
+        }
+        #section2{
+            background-color: rgba(82, 81, 81, 0.815);
+        }
+        #section3{
+            background-color: rgba(82, 81, 81, 0.815);
+        }
+        section{
+            border: 2px greenyellow;
+            border-radius: 30px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+    </STYLE>
+</head>
+
+<body>
+
+    <header>
+        <h1> ej de tipografia en css</h1>
+    </header>
+
+    <main>
+        <section id="section05">
+            <h2>Tipo de fuente: font-family</h2>
+            <p class="fuente-principal">
+                Este parrafo usa la fuente 'Courier New', Courier, monospace
+            </p>
+            <p class="fuente-secundaria">
+                Este parrafo usa la fuente Georgia, 'Times New Roman', Times, serif
+            </p>
+        </section>
+    <section id="section1">
+        <h2>tamañpo de fuente: font size</h2>
+        <p class="tam-px"> texto 18 px</p>
+        <p class="tam-em"> texto 1.8 p</p>
+
+    </section>
+    <section id="section2">
+        <h2>Grosor de fuente: font-weight</h2>
+        <p class="fuente-grosor-normal fuente-prueba-grosor">
+            Parrafo normal
+        </p>
+        <p class="fuente-grosor-max fuente-prueba-grosor">
+            Parrafo grosor maximo
+        </p>
+        <p class="fuente-grosor-debil fuente-prueba-grosor">
+            Parrafo grosor debil
+        </p>
+
+        <p class="fuente-estilo">
+            Aplicamos font-style
+        </p>
+    </section>
+    <section id="section3">
+        <h2>Altura de linea (interlineado): line-height</h2>
+        <p class="interlineado-peque">
+            Este texto tiene un interlineado pequeño. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+            adipisci recusandae, ea maiores fugit tempora, saepe doloribus obcaecati nam quidem numquam, similique
+            deleniti minima amet quos consectetur rem qui. Quisquam
+        </p>
+        <p class="interlineado-normal">
+            Este texto tiene un interlineado normal. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatem animi explicabo cupiditate ratione, sed nulla eveniet, labore excepturi at earum error, ut
+            minima eius? Voluptatem doloribus magnam amet repellat maiores.
+        </p>
+        <p class="interlineado-grande">
+            Este texto tiene un interlineado grande. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Adipisci, quisquam qui? Ducimus aliquam repellat non odit sapiente ea impedit sequi repudiandae,
+            accusamus reiciendis, doloribus, quidem laudantium facilis praesentium velit. Perferendis.
+        </p>
+    </section>
+</main>
+
+</body>
+
+</html>
